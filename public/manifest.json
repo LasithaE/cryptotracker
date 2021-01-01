@@ -1,0 +1,16 @@
+{
+  "name": "Crypto Tracker",
+  "manifest version":2,
+  "version":"1",
+  
+  "default_locale":"en",
+  "description":"A cryptocurrency tracker",
+  "start_url": ".",
+  "browser_action": {
+    "default_popup": "index.html"
+},
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "content_security_policy": "script-src 'self' 'sha256-Ck7z5cbXTD41ZUhHgJ0z92FRQstna5KTC8639R1Qfww='; object-src 'self'"
+}
